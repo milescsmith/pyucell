@@ -14,7 +14,7 @@ maintainers = [
 authors = [
   { name = "Massimo Andreatta" },
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 classifiers = [
   "Programming Language :: Python :: 3 :: Only",
   "Programming Language :: Python :: 3.11",
@@ -23,11 +23,11 @@ classifiers = [
   "Programming Language :: Python :: 3.14",
 ]
 dependencies = [
-  "anndata",
+  "anndata~=0.12",
   "joblib>=1.2",
-  "numpy>=1.23,<2",
-  "scanpy>=1.9",
-  "scipy",
+  "numpy>=2.0,<2.5",
+  "scanpy>=1.12",
+  "scipy>=1.15",
   "session-info2",
 ]
 optional-dependencies.dev = [
